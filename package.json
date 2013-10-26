@@ -1,0 +1,44 @@
+{
+  "name": "blog_to_mongo",
+  "description": "Specific format (marten)blog written in markdown to mongodb",
+  "version": "0.1.0",
+  "homepage": "https://github.com/inhortte/blog_to_mongo",
+  "author": {
+    "name": "Bob Shelton",
+    "email": "inhortte@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/inhortte/blog_to_mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inhortte/blog_to_mongo/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/inhortte/blog_to_mongo/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/blog_to_mongo",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "mongodb": "*",
+    "async": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "bin": {
+    "blog_to_mongo": "lib/blog_to_mongo.js"
+  }
+}
