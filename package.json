@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "mongodb": "*",
-    "async": "*"
+    "async": "*",
+    "underscore-node": "*"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
