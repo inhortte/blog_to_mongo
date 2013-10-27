@@ -28,7 +28,7 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "mongodb": "*",
+    "mongojs": "*",
     "async": "*",
     "underscore-node": "*"
   },
