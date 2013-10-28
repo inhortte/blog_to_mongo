@@ -30,7 +30,8 @@
   "dependencies": {
     "mongojs": "*",
     "async": "*",
-    "underscore-node": "*"
+    "underscore-node": "*",
+    "strftime": "*"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
